@@ -164,7 +164,7 @@ if survival_empty.checkbox('Show the Exceedance Probablility Curve'):
     st_echarts(line_options)
 
 if show_layering_empyt.checkbox('Show the Disaster Risk layering'):
-    layering_empty.beta_expander('Disaster Risk Layering').image('Layering.png', width=800, height=494)
+    layering_empty.beta_expander('Disaster Risk Layering').image('Layering.png')
 
 
 RetainedLossWithoutPolicy = LossAmountMillion / dps[natBdt]
